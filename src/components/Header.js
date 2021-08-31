@@ -6,7 +6,7 @@ class Header extends React.Component {
     render() {
         return (
             <header >
-              <h1>Class01-React</h1>
+              <h1>Lab03-React Passing Functions in Props </h1>
             </header>
         )
     }

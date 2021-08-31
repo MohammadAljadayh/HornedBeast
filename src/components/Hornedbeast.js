@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
@@ -18,13 +17,19 @@ class HornedBeast extends React.Component {
     });
   }
 
+  SelectedBeast = () => {
+    this.props.showBeast(this.props);
+
+  }
+
+
   render() {
     return (
       <div>
 
 
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top"  src={this.props.url} onClick={this.NumberOFlikes } />
+        <Card style={{ width: '18rem' }} onClick={this.SelectedBeast} >
+          <Card.Img variant="top"  src={this.props.image_url} onClick={this.NumberOFlikes } />
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>   {this.props.description} </Card.Text>
