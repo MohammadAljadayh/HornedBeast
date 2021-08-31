@@ -24,7 +24,7 @@ class HornedBeast extends React.Component {
 
 
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top"  src={this.props.url} />
+          <Card.Img variant="top"  src={this.props.url} onClick={this.NumberOFlikes } />
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>   {this.props.description} </Card.Text>
