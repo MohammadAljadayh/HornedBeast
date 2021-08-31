@@ -1,8 +1,9 @@
-Number and name of feature: 301 lab 2 - State&bootstrp
-Estimate of time needed to complete:2 Hours 
+Number and name of feature: 301 lab 3 - Passing Functions in Props
 
-Start time: 1.30
+Estimate of time needed to complete:5 Hours 
 
-Finish time:3.30
+Start time: 2.30 to 4.30 
 
-Actual time needed to complete:2-3 hours 
+Finish time:from 8-10
+
+Actual time needed to complete:4 hours 
