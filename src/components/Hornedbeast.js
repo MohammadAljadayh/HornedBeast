@@ -25,13 +25,13 @@ class HornedBeast extends React.Component {
 
   render() {
     return (
+      <>
       <div>
-
-
         <Card style={{ width: '18rem' }} onClick={this.SelectedBeast} >
+        <Card.Title>{this.props.title}</Card.Title>
           <Card.Img variant="top"  src={this.props.image_url} onClick={this.NumberOFlikes } />
           <Card.Body>
-            <Card.Title>{this.props.title}</Card.Title>
+       
             <Card.Text>   {this.props.description} </Card.Text>
             <Button onClick={this.NumberOFlikes }  variant="primary">Like Me</Button>
            
@@ -40,10 +40,9 @@ class HornedBeast extends React.Component {
           
           </Card.Body>
         </Card>
-
-  
     
       </div>
+      </>
     );
   }
 }
